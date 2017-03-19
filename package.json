@@ -1,0 +1,23 @@
+{
+  "name": "gameengine",
+  "version": "1.0.0",
+  "description": "A simple game engine for the web written in TypeScript",
+  "main": "app/engine.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./app/engine.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/jaween/gameengine-web"
+  },
+  "author": "Jaween Ediriweera",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^7.0.8",
+    "nodemon": "^1.11.0",
+    "ts-node": "^2.1.0",
+    "typescript": "^2.2.1"
+  }
+}
