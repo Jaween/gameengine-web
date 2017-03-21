@@ -1,5 +1,5 @@
-import { GameLoop } from "./game_loop";
-import { Sprite } from "./sprite";
+import { GameLoop } from "./engine/game_loop";
+import { Sprite } from "./engine/sprite";
 
 export class DemoGame implements GameLoop {
   readonly speed = 20;
