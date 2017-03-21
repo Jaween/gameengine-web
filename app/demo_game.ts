@@ -7,7 +7,7 @@ export class DemoGame implements GameLoop {
   ball: Sprite;
 
   constructor() {
-    this.ball = new Sprite("app/green.png");
+    this.ball = new Sprite("app/green.png", () => { });
   }
 
   init(canvas, context): void {
