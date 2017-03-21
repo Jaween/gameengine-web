@@ -16,7 +16,7 @@ It is written in TypeScript (JavaScript with some extra features) in order to us
 
  `npm install`
 
-3. Create your game by writing a class which implements GameLoop
+3. Create your game by writing a class which implements GameLoop (see `demo_game.ts` for an example). You may want to create a git submodule to separate your game logic into a separate repository.
 
 4. Pass an instance of your GameLoop to the Engine constructor in `run.ts`
 
