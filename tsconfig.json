@@ -6,8 +6,5 @@
         "sourceMap": false,
         "typeRoots": ["node_modules/@types"],
         "outFile": "app/app.js"
-    },
-    "files": [
-        "app/engine.ts",
-    ]
+    }
 }
